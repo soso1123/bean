@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="Generator" content="EditPlus®">
+	<meta name="Author" content="">
+	<meta name="Keywords" content="">
+	<meta name="Description" content="">
+	<title>오시는길</title>
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&language=ko"></script>
+	<script src = "js/jido.js"> 
+	</script>
+	<link href = "css/menubar.css" type="text/css" rel="stylesheet">
+	<link href = "css/jido.css" type="text/css" rel="stylesheet">
+</head>
+<body onload="initialize()"> 
+	<div class = "wrapper">
+		<header>
+			<table id = "login" align = right>
+				<tbody>
+					<tr>
+						<td><a href="#"><img src="image/kakao.png"></a></td>
+						<td><a href="#"><img src="image/instar.png"></a></td>
+						<td><a href="login.html">Login</a></td>
+					</tr>
+				</tbody>
+			</table>
+			<p align = "center"><a href="index.html"><img src="image/logo2.png" alt="로고 사진" border = "0" width = 360px></a></p>
+			<nav id="menubar">
+				<div>
+					<ul>
+						<li><span class="dropdown"><a href="cate1.html">베이커리 소개</a>
+							<div class="content">
+								<a href="cate1.html">인사말</a>
+								<a href="jido.html">오시는 길</a>
+							</div>
+						</span></li>
+						<li><span class="dropdown"><a href="cate2.html">제품 소개</a>
+							<div class="content">
+								<a href="cate2.html">식빵</a>
+								<a href="cookie.html">쿠키</a>
+								<a href="cake.html">케이크</a>
+								<a href="package.html">패키지</a>
+							</div>
+						</span></li>
+						<li><span class="dropdown"><a href="cate3.html">고객지원</a>
+							<div class="content">
+								<a href="cate3.html">공지사항</a>
+								<a href="faq.html">FAQ</a>
+							</div>
+						</span></li>
+						<li><a href="cate5.html">주문 제작</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<section>
+			<br><br>
+			<h3 align = "center">오시는길</h3>
+			<br>
+			<hr>
+			<div id="map_canvas"></div> 
+			<div style="clear:both;"></div>
+		</section>
+		<footer class = "footer">
+			<div>
+				uxui 프로그래밍 수업
+				<br>
+				학번 : 2017081081
+				<br>
+				이름 : 표소연
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

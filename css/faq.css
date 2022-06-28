@@ -1,0 +1,25 @@
+#warp {
+	max-width : 1000px;
+	margin : 20px auto;
+}
+
+#faq li{
+	display: inline-block;
+	list-style-type : none;
+	margin-right : 80px;
+	font-weight: bold;
+	font-size : 1.05em;
+	color : #4C4C4C;
+}
+
+#faq {
+	margin-left: 40%;
+}
+
+#jumun {
+	display : none;
+}
+
+details {
+	margin-bottom: 20px;
+}

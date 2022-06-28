@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="Generator" content="EditPlus®">
+	<meta name="Author" content="">
+	<meta name="Keywords" content="">
+	<meta name="Description" content="">
+	<title>제품 소개</title>
+	<link href = "css/menubar.css" type="text/css" rel="stylesheet">
+	<link href = "css/cate4.css" type="text/css" rel="stylesheet">
+	<script type="text/javascript">
+		function itemSum()
+		{
+			var num1 = document.getElementById("size").value;
+			var num2 = document.getElementById("candle").value;
+			var num3 = document.getElementById("shape").value;
+
+			document.getElementById("total_sum").innerHTML = eval(num1 +"+"+ num2+"+"+num3)+" 원";
+		}
+	</script>
+</head>
+<body>
+	<div class ="wrapper">
+		<header>
+			<table id = "login" align = right>
+				<tbody>
+					<tr>
+						<td><a href="#"><img src="image/kakao.png"></a></td>
+						<td><a href="#"><img src="image/instar.png"></a></td>
+						<td><a href="login.html">Login</a></td>
+					</tr>
+				</tbody>
+			</table>
+			<p align = "center"><a href="index.html"><img src="image/logo2.png" alt="로고 사진" border = "0" width = 360px></a></p>
+			<nav id="menubar">
+				<div>
+				<ul>
+					<li><span class="dropdown"><a href="cate1.html">베이커리 소개</a>
+						<div class="content">
+							<a href="cate1.html">인사말</a>
+							<a href="jido.html">오시는 길</a>
+						</div>
+					</span>
+					</li>
+					<li><span class="dropdown"><a href="cate2.html">제품 소개</a>
+						<div class="content">
+							<a href="cate2.html">식빵</a>
+							<a href="cookie.html">쿠키</a>
+							<a href="cake.html">케이크</a>
+							<a href="package.html">패키지</a>
+						</div>
+					</span>
+					</li>
+					<li><span class="dropdown"><a href="cate3.html">고객지원</a>
+						<div class="content">
+							<a href="cate3.html">공지사항</a>
+							<a href="faq.html">FAQ</a>
+						</div>
+					</span>
+					</li>
+					<li><a href="cate5.html">주문 제작</a>
+					</li>
+				</ul>
+				</div>
+			</nav>
+		</header>
+		<section>
+			<br><br>
+			<h2 align ="center">주문제작</h2>
+			<br>
+			<hr>
+			<br>
+			<div id = "warp">
+				<div id = "picture">
+					<img src = "image/cate5.png" alt = "주문제작 사진">
+				</div>
+				<div id = "form">
+					<h2 align="center">떡케이크 주문제작</h2>
+					<table id ="jumunseo">
+						<tr>
+							<td class = "a">기본 가격 :</td><td> 75,000 원</td>
+						</tr>
+						<tr>
+							<td class = "a">적립금 :</td><td> 3,000 원</td>
+						</tr>
+						<tr>
+							<td class = "a">준비기간 :</td><td>주문이 들어오고 5일</td>
+						</tr>
+						<tr>
+							<td class = "a">유통기한 :</td><td>제작 후 3일 이내</td>
+						</tr>
+						<tr>
+							<td class = "a">사이즈 :</td>
+							<td>
+								<select id="size">
+									<option value="0">==옵션선택==</option>
+									<option value="75000">2호</option>
+									<option value="95000">3호(+20,000)</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td class = "a">초 선택 :</td>
+							<td>
+								<select id="candle">
+									<option value="0">==옵션선택==</option>
+									<option value="0">기본초</option>
+									<option value="1000">숫자초(+1,000)</option>
+									<option value="2000">생일축하초(+2,000)</option>
+								</select>								
+							</td>
+						</tr>
+						<tr>
+							<td class = "a">케이크 모양 선택 :</td>
+							<td>
+								<select id="shape">
+									<option value="0">==옵션선택==</option>
+									<option value="0">하트모양</option>
+									<option value="0">원모양</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td class = "a">전체 가격 :</td><td id="total_sum"></td><td><a herf="#" onclick="itemSum();">가격보기</a></td>
+						</tr>
+					</table>
+					<a href ="#" class = "b"><img src ="image/jumunhagi.png" width ="150"></a>
+					<a href ="#"><img src ="image/jangba.png" width ="150"></a>
+				</div>
+				<div style="clear:both;"></div>
+				<br>
+				<br>
+				<hr>
+				<div id = "page">
+					<img src = "image/angcake.png" alt = "상세 설명 사진">
+				</div>
+			</div>
+			<div style="clear:both;"></div>
+		</section>
+		<footer class = "footer">
+			<div>
+				uxui 프로그래밍
+				<br>
+				학번 : 2017081081
+				<br>
+				이름 : 표소연
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

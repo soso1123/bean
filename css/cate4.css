@@ -1,0 +1,40 @@
+#warp {
+	max-width : 1000px;
+	margin : 20px 250px;
+}
+
+#picture {
+	margin-left: 8px;
+	float: left;
+	width : 600px;
+	height : 500px;
+}
+
+#form {
+	float: left;
+	max-width : 380px;
+	height : 475px;
+}
+
+#page {
+	margin-top : 50px;
+	margin-left: 10px;
+	width : 980px;
+}
+
+table {
+	display : inline-block;
+	margin-bottom: 40px;
+}
+
+a {
+	color : gray;
+}
+
+.a {
+	text-align : right;
+}
+
+.b {
+	margin-left : 20px;
+}

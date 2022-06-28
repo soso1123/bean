@@ -1,0 +1,18 @@
+#warp {
+	max-width : 1000px;
+	margin : 20px auto;
+}
+
+#warp p {
+	text-indent : 2em;
+}
+
+details {
+	margin-bottom: 20px;
+}
+
+#warp > button {
+	position : relative;
+	top : 60px;
+	left : 940px;
+}
